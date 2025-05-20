@@ -8,7 +8,7 @@
 }
 
 .main-nav a {
-  color: var(--color-white);
+  color: var(--color-primary);
   font-weight: 400;
   position: relative;
 }
