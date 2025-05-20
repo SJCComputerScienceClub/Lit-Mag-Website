@@ -127,6 +127,7 @@
   transition: transform 0.3s ease;
 }
 
+/*
 .edition-item:hover {
   transform: translateY(-8px);
 }
@@ -146,6 +147,7 @@
 .edition-item:hover .edition-overlay {
   transform: translateY(0);
 }
+*/
 
 .archive-link {
   text-align: center;
