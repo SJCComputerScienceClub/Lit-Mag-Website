@@ -1,0 +1,83 @@
+/* Typography Styles */
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.5px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.tagline {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-top: -8px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin: 16px auto 0;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 700px;
+  margin: -24px auto 40px;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .lead {
+    font-size: 1.125rem;
+  }
+}

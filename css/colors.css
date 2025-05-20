@@ -1,0 +1,54 @@
+/* Color System */
+:root {
+  /* Primary Colors */
+  --color-primary: #0A2342; /* Deep navy blue */
+  --color-primary-light: #1E3A5F;
+  --color-primary-dark: #051426;
+  
+  /* Secondary Colors */
+  --color-secondary: #7A1712; /* Burgundy red */
+  --color-secondary-light: #9A2D28;
+  --color-secondary-dark: #5A0F0D;
+  
+  /* Accent Colors */
+  --color-accent: #EAB464; /* Gold/Yellow */
+  --color-accent-light: #F2C88C;
+  --color-accent-dark: #D49846;
+  
+  /* Success Colors */
+  --color-success: #94A187; /* Sage green */
+  --color-success-light: #B0BBA5;
+  --color-success-dark: #77846B;
+  
+  /* Warning Colors */
+  --color-warning: #FFBE0B; /* Amber */
+  --color-warning-light: #FFCE4B;
+  --color-warning-dark: #DFA200;
+  
+  /* Error Colors */
+  --color-error: #D62246; /* Crimson */
+  --color-error-light: #E54D6B;
+  --color-error-dark: #B01A38;
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-cream: #F9F5EB;
+  --color-light-gray: #E8E4DD;
+  --color-gray: #B3B0A8;
+  --color-dark-gray: #6D6A61;
+  --color-charcoal: #3A3835;
+  --color-black: #1D1C1A;
+  
+  /* Text Colors */
+  --color-text: var(--color-charcoal);
+  --color-text-light: var(--color-dark-gray);
+  --color-heading: var(--color-primary-dark);
+  
+  /* Background Colors */
+  --color-bg: var(--color-cream);
+  --color-bg-alt: var(--color-light-gray);
+  
+  /* Overlay Colors */
+  --color-overlay-dark: rgba(10, 35, 66, 0.8);
+  --color-overlay-light: rgba(249, 245, 235, 0.9);
+}
