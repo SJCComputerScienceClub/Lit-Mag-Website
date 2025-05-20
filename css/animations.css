@@ -51,11 +51,6 @@
   }
 }
 
-._df_thumb:hover {
-  animation: pageTurn 1.5s ease-in-out;
-  transform-origin: left center;
-}
-
 /* Button Hover Animation */
 .btn-primary:hover,
 .btn-secondary:hover,
@@ -112,11 +107,6 @@ html {
   
   .reveal {
     opacity: 1 !important;
-    transform: none !important;
-  }
-  
-  ._df_thumb:hover {
-    animation: none !important;
     transform: none !important;
   }
 }
