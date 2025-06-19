@@ -51,4 +51,5 @@
   /* Overlay Colors */
   --color-overlay-dark: rgba(10, 35, 66, 0.8);
   --color-overlay-light: rgba(249, 245, 235, 0.9);
+  --color-overlay-header: rgba(249, 245, 235, 0.85);
 }
