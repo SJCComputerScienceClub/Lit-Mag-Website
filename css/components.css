@@ -5,7 +5,6 @@
   display: flex;
   gap: 32px;
   align-items: center;
-  background-color: var(--color-accent);
 }
 
 .main-nav a {
