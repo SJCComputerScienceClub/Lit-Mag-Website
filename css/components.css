@@ -5,13 +5,13 @@
   display: flex;
   gap: 32px;
   align-items: center;
+  background-color: var(--color-accent);
 }
 
 .main-nav a {
   color: var(--color-primary);
   font-weight: 400;
   position: relative;
-  background-color: var(--color-accent);
 }
 
 .main-nav a::after {
