@@ -272,6 +272,11 @@
   font-size: 0.875rem;
 }
 
+.feature-thumb {
+  width: 400px;
+  height: 571px;
+}
+
 /* Responsive Layout */
 @media (max-width: 992px) {
   .edition-feature,
